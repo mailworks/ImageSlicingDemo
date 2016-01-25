@@ -10,9 +10,9 @@
 		D95EA3251C55E4EB00C149E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D95EA3241C55E4EB00C149E4 /* main.m */; };
 		D95EA3281C55E4EB00C149E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D95EA3271C55E4EB00C149E4 /* AppDelegate.m */; };
 		D95EA32B1C55E4EB00C149E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D95EA32A1C55E4EB00C149E4 /* ViewController.m */; };
-		D95EA33F1C55E50F00C149E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95EA33A1C55E50F00C149E4 /* Assets.xcassets */; };
-		D95EA3401C55E50F00C149E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95EA33C1C55E50F00C149E4 /* LaunchScreen.storyboard */; };
-		D95EA3411C55E50F00C149E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95EA33E1C55E50F00C149E4 /* Main.storyboard */; };
+		D95EA34C1C55F4A800C149E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95EA3481C55F4A800C149E4 /* LaunchScreen.storyboard */; };
+		D95EA34D1C55F4A800C149E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D95EA34A1C55F4A800C149E4 /* Main.storyboard */; };
+		D95EA34F1C55F4E300C149E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D95EA34E1C55F4E300C149E4 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		D95EA3291C55E4EB00C149E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D95EA32A1C55E4EB00C149E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D95EA3341C55E4EB00C149E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D95EA33A1C55E50F00C149E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../Desktop/ImageSlicingDemo/ImageSlicingDemo/Assets.xcassets; sourceTree = "<group>"; };
-		D95EA33B1C55E50F00C149E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D95EA33D1C55E50F00C149E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D95EA3491C55F4A800C149E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D95EA34B1C55F4A800C149E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D95EA34E1C55F4E300C149E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +63,9 @@
 				D95EA3291C55E4EB00C149E4 /* ViewController.h */,
 				D95EA32A1C55E4EB00C149E4 /* ViewController.m */,
 				D95EA3341C55E4EB00C149E4 /* Info.plist */,
-				D95EA33A1C55E50F00C149E4 /* Assets.xcassets */,
-				D95EA33C1C55E50F00C149E4 /* LaunchScreen.storyboard */,
-				D95EA33E1C55E50F00C149E4 /* Main.storyboard */,
+				D95EA34E1C55F4E300C149E4 /* Assets.xcassets */,
+				D95EA3481C55F4A800C149E4 /* LaunchScreen.storyboard */,
+				D95EA34A1C55F4A800C149E4 /* Main.storyboard */,
 				D95EA3231C55E4EB00C149E4 /* Supporting Files */,
 			);
 			path = ImageSlicingDemo;
@@ -136,9 +136,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D95EA3411C55E50F00C149E4 /* Main.storyboard in Resources */,
-				D95EA33F1C55E50F00C149E4 /* Assets.xcassets in Resources */,
-				D95EA3401C55E50F00C149E4 /* LaunchScreen.storyboard in Resources */,
+				D95EA34C1C55F4A800C149E4 /* LaunchScreen.storyboard in Resources */,
+				D95EA34F1C55F4E300C149E4 /* Assets.xcassets in Resources */,
+				D95EA34D1C55F4A800C149E4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -158,22 +158,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D95EA33C1C55E50F00C149E4 /* LaunchScreen.storyboard */ = {
+		D95EA3481C55F4A800C149E4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D95EA33B1C55E50F00C149E4 /* Base */,
+				D95EA3491C55F4A800C149E4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			path = ../../../Desktop/ImageSlicingDemo/ImageSlicingDemo;
 			sourceTree = "<group>";
 		};
-		D95EA33E1C55E50F00C149E4 /* Main.storyboard */ = {
+		D95EA34A1C55F4A800C149E4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D95EA33D1C55E50F00C149E4 /* Base */,
+				D95EA34B1C55F4A800C149E4 /* Base */,
 			);
 			name = Main.storyboard;
-			path = ../../../Desktop/ImageSlicingDemo/ImageSlicingDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -300,6 +298,7 @@
 				D95EA3391C55E4EB00C149E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
